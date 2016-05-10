@@ -1,0 +1,121 @@
+body {
+	background-image: url('wood.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#101010;
+}
+div {
+	display: block;
+}
+.all {
+	width:850px;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	background-color: #E8E8E8;
+	padding:0px 20px 20px;
+}
+
+.all1 {
+	width:850px;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+	background-color: black;
+	padding:0px 20px 20px;
+	color: white;
+}
+
+.picture {
+	float:right;
+	margin-top: 85px;
+}
+#free {
+	color: #6ec39a;
+}
+.arrow {
+	float:left;
+	width:25px;
+	height: 18px;
+	margin:0px 5px 0px 0px;
+}
+h1 {
+	font-size: 24px;
+	font-weight: .6em;
+	border-bottom: 1px solid #999;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 36px;
+	color: #2B2B2B;
+}
+h2 {
+	font-family: Tahoma, Georgia, sans-serif;
+	font-weight:100;
+	font-size: 28px;
+	margin-top: 35px;
+	color:#2B2B2B;
+}
+h3 {
+	border-bottom: 1px solid #999;
+	color:#2B2B2B;
+}
+#contact1 {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#skills {
+	margin-top:10px;
+	margin-right:10px;
+	padding-right: 10px;
+	font-family: "Courier New", Courier, monospace;
+}
+#title{
+	font-weight: 200;
+	font-style: italic;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#description {
+	font-family: "Courier New", Courier, monospace;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	margin-top:5px;
+	padding-top:5px;
+}
+.year {
+	float:right;
+	font-family: "Courier New", Courier, monospace;
+	font: caption;
+	font-style: italic;
+}
+#school {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-style: italic;
+}
+.course{
+	font-family: "Courier New", Courier, monospace;
+	width:850px;
+	margin-left: 10px;
+}
+#add {
+	font-family: "Courier New", Courier, monospace;
+}
+footer {
+	margin-top:15px;
+	margin-left:350px;
+}
+button {
+	height:40px;
+	margin-right:5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: 600;
+}
+.dark {
+	background-color:black;
+	color:white;
+}
+.light {
+	background-color:#c4c4c4;
+	color:black;
+}
