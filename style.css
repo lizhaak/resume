@@ -7,13 +7,22 @@ body {
 div {
 	display: block;
 }
+@font-face {
+  font-family: 'DejaVuSansMono';
+  src: url('DejaVuSansMono.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+.bold {
+	font-weight: bold;
+}
 .all {
 	width:850px;
 	margin-top:25px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:50px;
-	background-color: #E8E8E8;
+	background: linear-gradient(to bottom, #E8E8E8, #c3e564);
 	padding:0px 20px 20px;
 }
 
@@ -28,9 +37,12 @@ div {
 	color: white;
 }
 
-.picture {
+#picture {
 	float:right;
 	margin-top: 85px;
+	border-radius: 15px;
+	box-shadow: 1px 2px 2px #000;
+	border: 5px solid white;
 }
 #free {
 	color: #6ec39a;
@@ -41,7 +53,7 @@ div {
 	height: 18px;
 	margin:0px 5px 0px 0px;
 }
-h1 {
+header {
 	font-size: 24px;
 	font-weight: .6em;
 	border-bottom: 1px solid #999;
@@ -49,14 +61,13 @@ h1 {
 	font-size: 36px;
 	color: #2B2B2B;
 }
-h2 {
-	font-family: Tahoma, Georgia, sans-serif;
-	font-weight:100;
+h1 {
+	font-family: 'DejaVuSansMono', Gadget, sans-serif;
 	font-size: 28px;
 	margin-top: 35px;
 	color:#2B2B2B;
 }
-h3 {
+h2 {
 	border-bottom: 1px solid #999;
 	color:#2B2B2B;
 }
@@ -89,6 +100,13 @@ h3 {
 	font: caption;
 	font-style: italic;
 }
+.dash {
+	float:right;
+	font-family: "Courier New", Courier, monospace;
+	font: caption;
+	font-style: italic;
+	padding: 0 5px 0 5px;
+}
 #school {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-style: italic;
@@ -100,10 +118,6 @@ h3 {
 }
 #add {
 	font-family: "Courier New", Courier, monospace;
-}
-footer {
-	margin-top:15px;
-	margin-left:350px;
 }
 button {
 	height:40px;
