@@ -7,7 +7,6 @@ body {
 div {
 	display: block;
 }
-<<<<<<< HEAD
 @font-face {
   font-family: 'DejaVuSansMono';
   src: url('DejaVuSansMono.ttf');
@@ -17,19 +16,13 @@ div {
 .bold {
 	font-weight: bold;
 }
-=======
->>>>>>> 8ccb1811fd134b6287fad7a4e0fdcaffc23eb290
 .all {
 	width:850px;
 	margin-top:25px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:50px;
-<<<<<<< HEAD
 	background: linear-gradient(to bottom, #E8E8E8, #c3e564);
-=======
-	background-color: #E8E8E8;
->>>>>>> 8ccb1811fd134b6287fad7a4e0fdcaffc23eb290
 	padding:0px 20px 20px;
 }
 
@@ -44,18 +37,12 @@ div {
 	color: white;
 }
 
-<<<<<<< HEAD
 #picture {
 	float:right;
 	margin-top: 85px;
 	border-radius: 15px;
 	box-shadow: 1px 2px 2px #000;
 	border: 5px solid white;
-=======
-.picture {
-	float:right;
-	margin-top: 85px;
->>>>>>> 8ccb1811fd134b6287fad7a4e0fdcaffc23eb290
 }
 #free {
 	color: #6ec39a;
@@ -66,11 +53,7 @@ div {
 	height: 18px;
 	margin:0px 5px 0px 0px;
 }
-<<<<<<< HEAD
 header {
-=======
-h1 {
->>>>>>> 8ccb1811fd134b6287fad7a4e0fdcaffc23eb290
 	font-size: 24px;
 	font-weight: .6em;
 	border-bottom: 1px solid #999;
@@ -78,23 +61,13 @@ h1 {
 	font-size: 36px;
 	color: #2B2B2B;
 }
-<<<<<<< HEAD
 h1 {
 	font-family: 'DejaVuSansMono', Gadget, sans-serif;
-=======
-h2 {
-	font-family: Tahoma, Georgia, sans-serif;
-	font-weight:100;
->>>>>>> 8ccb1811fd134b6287fad7a4e0fdcaffc23eb290
 	font-size: 28px;
 	margin-top: 35px;
 	color:#2B2B2B;
 }
-<<<<<<< HEAD
 h2 {
-=======
-h3 {
->>>>>>> 8ccb1811fd134b6287fad7a4e0fdcaffc23eb290
 	border-bottom: 1px solid #999;
 	color:#2B2B2B;
 }
@@ -127,7 +100,6 @@ h3 {
 	font: caption;
 	font-style: italic;
 }
-<<<<<<< HEAD
 .dash {
 	float:right;
 	font-family: "Courier New", Courier, monospace;
@@ -135,8 +107,6 @@ h3 {
 	font-style: italic;
 	padding: 0 5px 0 5px;
 }
-=======
->>>>>>> 8ccb1811fd134b6287fad7a4e0fdcaffc23eb290
 #school {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-style: italic;
@@ -149,13 +119,6 @@ h3 {
 #add {
 	font-family: "Courier New", Courier, monospace;
 }
-<<<<<<< HEAD
-=======
-footer {
-	margin-top:15px;
-	margin-left:350px;
-}
->>>>>>> 8ccb1811fd134b6287fad7a4e0fdcaffc23eb290
 button {
 	height:40px;
 	margin-right:5px;
